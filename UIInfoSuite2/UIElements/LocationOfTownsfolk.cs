@@ -84,7 +84,7 @@ namespace UIInfoSuite2.UIElements
             { "AnimalShop", new KeyValuePair<int, int>(420, 392) },
             { "SamHouse", new KeyValuePair<int, int>(612, 396) },
             { "WitchWarpCave", new KeyValuePair<int, int>(0, 0) },
-            { "Club", new KeyValuePair<int, int>(60, 92) }
+            { "Club", new KeyValuePair<int, int>(60, 92) },
             { "Sunroom", new KeyValuePair<int, int>>(705, 304) }
         };
         #endregion
@@ -410,3 +410,4 @@ namespace UIInfoSuite2.UIElements
         #endregion
     }
 }
+
