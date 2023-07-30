@@ -85,6 +85,7 @@ namespace UIInfoSuite2.UIElements
             { "SamHouse", new KeyValuePair<int, int>(612, 396) },
             { "WitchWarpCave", new KeyValuePair<int, int>(0, 0) },
             { "Club", new KeyValuePair<int, int>(60, 92) }
+            { "Sunroom", new KeyValuePair<int, int>>(705, 304) }
         };
         #endregion
 
@@ -160,7 +161,7 @@ namespace UIInfoSuite2.UIElements
             {
                 foreach (var character in loc.characters)
                 {
-                    if (character.isVillager())
+                    if (character.isVillager() || character.Name.Equals("Lewis"))
                         _townsfolk.Add(character);
                 }
             }
