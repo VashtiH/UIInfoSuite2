@@ -161,7 +161,7 @@ namespace UIInfoSuite2.UIElements
             {
                 foreach (var character in loc.characters)
                 {
-                    if (character.isVillager() || character.Name.Equals("Lewis"))
+                    if (character.isVillager())
                         _townsfolk.Add(character);
                 }
             }
@@ -410,4 +410,3 @@ namespace UIInfoSuite2.UIElements
         #endregion
     }
 }
-
